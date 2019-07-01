@@ -1,0 +1,4 @@
+<!--pages/my/my.wxml-->
+<text>pages/my/my.wxml</text>
+<view>Hello {{name}}!</view>
+<button bindtap="changeName">Click me!</button>

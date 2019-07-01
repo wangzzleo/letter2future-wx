@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/my/my"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#B2DFEE",
+    "navigationBarTitleText": "雁留痕",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color":"#000000",
+    "selectedColor": "#FFF",
+    "backgroundColor":"#B2DFEE",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页"
+    },{
+      "pagePath":"pages/my/my",
+      "text":"我的"
+    }]
+  },
+  "sitemapLocation": "sitemap.json",
+  "networkTimeout": {
+    "request": 7000,
+    "connectSocket": 20000,
+    "uploadFile": 20000,
+    "downloadFile": 20000
+  }
+}
