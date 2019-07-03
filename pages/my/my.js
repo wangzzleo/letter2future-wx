@@ -10,12 +10,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    data: helloData,
-    changeName: function(e) {
-      this.setData({
-        name:'MINA'
-      })
-    }
+    name: wangzz
   },
 
   /**
