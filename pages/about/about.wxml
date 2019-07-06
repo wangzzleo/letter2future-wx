@@ -1,0 +1,12 @@
+
+<view class = 'about'>
+  <text class = 'about-text'>{{content}}</text>
+  <button size="normal"  open-type="getUserInfo" bindgetuserinfo="onGotUserInfo" class = 'about-button'>写 信</button>
+  <!-- <van-popup show="{{ show }}" bind:close="onClose" position="bottom" custom-class="popup-box" >
+    <view class = "alert-text">需要获取您的微信昵称和头像</view>
+    <view class="popup-button-box">
+      <button type="default" bindtap="onClose" class="popup-button" style="float: left" >取消</button>
+      <button open-type="getUserInfo" style="float: right"  type="primary" bindgetuserinfo="onGotUserInfo" class="popup-button">允许</button>
+    </view>
+  </van-popup> -->
+</view>

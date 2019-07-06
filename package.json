@@ -1,0 +1,22 @@
+{
+  "name": "letter2future-wx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangzzleo/letter2future-wx.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wangzzleo/letter2future-wx/issues"
+  },
+  "homepage": "https://github.com/wangzzleo/letter2future-wx#readme",
+  "dependencies": {
+    "vant-weapp": "^0.5.15"
+  }
+}

@@ -1,7 +1,8 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/my/my",
+    "pages/about/about",
+    "pages/profile/profile",
     "pages/index/open/open",
     "pages/writer/writer",
     "pages/hello/hello",
@@ -10,21 +11,25 @@
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#B2DFEE",
-    "navigationBarTitleText": "雁留痕",
+    "navigationBarTitleText": "致未来",
     "navigationBarTextStyle": "white"
   },
   "tabBar": {
-    "color": "#000000",
-    "selectedColor": "#FFF",
+    "selectedColor": "#1296db",
+    "color": "#707070",
     "backgroundColor": "#B2DFEE",
     "list": [
       {
         "pagePath": "pages/index/index",
-        "text": "公开信件"
+        "text": "公开信件",
+        "iconPath": "images/index.png",
+        "selectedIconPath": "images/index-actived.png"
       },
       {
-        "pagePath": "pages/my/my",
-        "text": "我的信件"
+        "pagePath": "pages/profile/profile",
+        "text": "我的信件",
+        "iconPath": "images/profile.png",
+        "selectedIconPath": "images/profile-actived.png"
       }
     ]
   },
