@@ -1,4 +1,31 @@
-<view class="header-box">
-  <image src="{{logoImg}}" style="width: 80rpx; height: 80rpx;float: left; margin-top: 25rpx; margin-right: 25rpx;"></image>
-  <view class="header-text">致未来的信</view>
+<view class = "profile-box">
+  <view class="header-box">
+    <image src="{{logoImg}}" style="width: 100rpx; height: 100rpx;float: left; margin-top: 15rpx; margin-right: 25rpx;"></image>
+    <view class="header-text">致未来的信</view>
+  </view>
+  <view class="cellBox">
+    <image src="{{emailImg}}" class="cellBox-img"></image>
+    <text>我的信件</text>
+    <image src="{{rightImg}}" class="cellBox-icon"></image>
+  </view>
+  <view class="cellBox">
+    <image src="{{historyImg}}" class="cellBox-img"></image>
+    <text>浏览历史</text>
+    <image src="{{rightImg}}" class="cellBox-icon"></image>
+  </view>
+  <view class="cellBox">
+    <image src="{{aboutImg}}" class="cellBox-img"></image>
+    <text>关于我们</text>
+    <image src="{{rightImg}}" class="cellBox-icon"></image>
+  </view>
+  <view class="cellBox">
+    <image src="{{viewImg}}" class="cellBox-img"></image>
+    <text>反馈建议</text>
+    <image src="{{rightImg}}" class="cellBox-icon"></image>
+  </view>
+  <view class="cellBox">
+    <image src="{{awardImg}}" class="cellBox-img"></image>
+    <text>赞赏作者</text>
+    <image src="{{rightImg}}" class="cellBox-icon"></image>
+  </view>
 </view>

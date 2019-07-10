@@ -5,7 +5,13 @@ Page({
    * 页面的初始数据
    */
   data: {
-    logoImg: "../../images/logo.png"
+    logoImg: "../../images/logo.png",
+    historyImg: "../../images/history.png",
+    emailImg: "../../images/email.png",
+    awardImg: "../../images/award.png",
+    viewImg: "../../images/view.png",
+    aboutImg: "../../images/about.png",
+    rightImg: "../../images/toRight.png"
   },
 
   /**

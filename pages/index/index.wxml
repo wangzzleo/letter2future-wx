@@ -14,7 +14,7 @@
 </view> -->
  <van-tabs active="{{ active }}" bind:change="onChange">
     <van-tab title="公开信">
-    
+      <image src="{{banner_01}}" class="banner"></image>
     </van-tab>
     <van-tab title="来信统计">
     
