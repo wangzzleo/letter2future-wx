@@ -1,0 +1,7 @@
+<view class="firstView"  catchtouchmove="setTouchMove" catchtouchend='setCoordinates' style="left: {{left || '80%'}};top:{{top || '85%'}};" >
+  <view bindtap='writeEmial' class="writText">
+    写信
+    <!-- <image class='writeImg' bindtap='makephone' src="{{imgUrl}}"></image> -->
+    
+  </view>
+</view>

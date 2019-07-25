@@ -1,7 +1,9 @@
 {
   "usingComponents": {
+    "suspension-frame": "../../components/suspensionframe",
     "van-dialog": "vant-weapp/dialog",
     "van-tab": "vant-weapp/tab",
-    "van-tabs": "vant-weapp/tabs"
+    "van-tabs": "vant-weapp/tabs",
+    "ec-canvas": "../../components/ec-canvas/ec-canvas"
   }
 }

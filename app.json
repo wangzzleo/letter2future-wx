@@ -4,9 +4,9 @@
     "pages/about/about",
     "pages/profile/profile",
     "pages/index/open/open",
-    "pages/writer/writer",
     "pages/hello/hello",
-    "pages/index/statistics/statistics"
+    "pages/write/write",
+    "pages/statistics/statistics"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -39,5 +39,8 @@
     "connectSocket": 20000,
     "uploadFile": 20000,
     "downloadFile": 20000
+  },
+  "usingComponents": {
+    "van-loading": "vant-weapp/loading"
   }
 }

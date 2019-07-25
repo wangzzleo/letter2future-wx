@@ -1,0 +1,8 @@
+<view class="container">
+  <image class="screen" src="{{bgUrl}}"></image>
+  <view class="writeBox">
+    <input class="writeBox-title" disabled='{{disabled}}' value="{{titleVal}}" placeholder='写封信给未来的他（她）'/>
+    <textarea class="writeBox-content" maxlength="-1" style="height: {{contentHeight}}" value="{{detailVal}}" disabled='{{disabled}}' placeholder="请记录下你想说的话(暂不支持输入表情)" />
+    <view class="send-button" wx:if="{{!disabled}}" bindTap="{{sendLetter}}">发送</view>
+  </view>
+</view>

@@ -1,0 +1,54 @@
+.container{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  padding: 0;
+}
+.screen {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  z-index: 10;
+}
+.writeBox{
+  width: 90%;
+  height: 90vh;
+  margin: 5vh auto;
+  z-index: 20;
+  border-radius: 3%;
+  border: 1px solid #EA988D;
+}
+.writeBox-title{
+  width: 90%;
+  height:　100rpx;
+  line-height: 100rpx;
+  margin: 50rpx auto;
+  padding-bottom: 20rpx;
+  text-align: center;
+  border-bottom: 1px solid #EA988D;
+}
+.writeBox-content{
+   width: 90%;
+   margin: 10rpx auto;
+   font-size: 32rpx;
+   line-height: 50rpx;
+   height: 70%;
+}
+.send-button{
+  width: 30%;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  border: 1px solid #43C7F3;
+  margin: 0 auto;
+  border-radius: 10px;
+  background: #43C7F3;
+  color: #ffffff;
+    /* background: -moz-linear-gradient(top,  #000000 0%, #ffffff 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#000000), color-stop(100%,#ffffff));
+    background: -webkit-linear-gradient(top,  #000000 0%,#ffffff 100%);
+    background: -o-linear-gradient(top,  #000000 0%,#ffffff 100%);
+    background: -ms-linear-gradient(top,  #000000 0%,#ffffff 100%); */
+    background: linear-gradient(to bottom,  #fff 0%, #43C7F3 50%, #ffffff 100%);
+    /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#ffffff',GradientType=0 ); */
+}

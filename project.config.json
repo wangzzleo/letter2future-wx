@@ -41,7 +41,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 2,
+			"current": 3,
 			"list": [
 				{
 					"id": -1,
@@ -58,9 +58,30 @@
 					"scene": null
 				},
 				{
-					"id": -1,
+					"id": 2,
 					"name": "主页",
 					"pathName": "pages/index/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 3,
+					"name": "写信页面",
+					"pathName": "pages/write/write",
+					"query": "flag=isRead",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "其他",
+					"pathName": "pages/other/other",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 5,
+					"name": "来信统计",
+					"pathName": "pages/statistics/statistics",
 					"query": "",
 					"scene": null
 				}

@@ -44,6 +44,7 @@ App({
     //错误监听函数。
   },
   globalData: {
-    userInfo: null
+    userInfo: null,
+    resUrl: 'https://129.28.166.134/api/wx/'
   }
 }) 

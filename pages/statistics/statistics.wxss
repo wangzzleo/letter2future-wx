@@ -1,0 +1,9 @@
+.box {
+	width: 120%;
+	height:70%;
+	position: absolute;
+	top: 10%;
+	bottom: 0;
+	left: -10%;
+	right: 0;
+}

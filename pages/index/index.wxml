@@ -12,11 +12,50 @@
     <text class="user-motto">{{motto}}</text>
   </view>
 </view> -->
- <van-tabs active="{{ active }}" bind:change="onChange">
-    <van-tab title="公开信">
-      <image src="{{banner_01}}" class="banner"></image>
-    </van-tab>
-    <van-tab title="来信统计">
-    
-    </van-tab>
-  </van-tabs>
+<view style="height: 100%; width: 100%; overflow-x: hidden; overflow-y: scroll;">
+  <image src="{{banner_01}}" class="banner"></image>
+      <view class="openTab">
+        <view class="openTab-child">
+          <view class="openTab-child-icon">月</view>
+          <text class="openTab-child-text">月榜</text>
+        </view>
+        <view class="openTab-child">
+          <view class="openTab-child-icon" style = "background: #2BCEA1">周</view>
+          <text class="openTab-child-text">周榜</text>
+        </view>
+        <view class="openTab-child">
+          <view class="openTab-child-icon"  style = "background: #E96FE8" bindtap='goStatistics'>计</view>
+          <text class="openTab-child-text">来信统计</text>
+        </view>
+      </view>
+      <view style="width: 100%;">
+        <van-tabs type="card" animated color="#1291db7e" active="{{ active2 }}" bind:change="onChange" custom-class ='tabs-box'>
+          <van-tab title="月榜">
+            <view class="listItem" wx:for="{{moonList}}" wx:key="{{index}}" bindTap="{{readLetter}}">
+              <view class="listItem-numBox">
+                <view class="listItem-num">{{index + 1}}</view>
+              </view>
+              <view class="listItem-nameBox">
+                <view class="listItem-name">{{item.name}}</view>
+                <view class="listItem-userName">{{item.userName}}</view>
+              </view>
+              <view class="listItem-date">{{item.date}}</view>
+            </view>
+          </van-tab>
+          <van-tab title="周榜">
+            <view class="listItem" wx:for="{{weekList}}" wx:key="{{index}}">
+              <view class="listItem-numBox">
+                <view class="listItem-num">{{index + 1}}</view>
+              </view>
+              <view class="listItem-nameBox">
+                <view class="listItem-name">{{item.name}}</view>
+                <view class="listItem-userName">{{item.userName}}</view>
+              </view>
+              <view class="listItem-date">{{item.date}}</view>
+            </view>
+          </van-tab>
+        </van-tabs>
+      </view>
+  <suspension-frame bindmyevent='moveEvent'></suspension-frame>
+</view>
+
