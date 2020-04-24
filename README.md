@@ -1,3 +1,5 @@
+![](https://img.shields.io/github/license/wangzzleo/letter2future-wx?style=plastic)
+
 # letter2future-wx
 致未来-微信小程序
 
